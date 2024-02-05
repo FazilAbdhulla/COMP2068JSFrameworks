@@ -1,0 +1,17 @@
+{
+  "name": "lab03",
+  "version": "1.0.0",
+  "description": "package created for 3rd lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fazil",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "connect": "^3.7.0"
+  }
+}
