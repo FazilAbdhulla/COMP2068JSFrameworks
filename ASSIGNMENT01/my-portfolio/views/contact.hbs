@@ -3,10 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact Me</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for contact cards */
+        .card {
+            transition: transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card h2 {
+            font-size: 24px;
+            color: #007bff;
+        }
+
+        .card p {
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+
 </head>
 <body>
-    <h1>Contact</h1>
-    <p>Welcome to the contact page. Here, you can provide contact information.</p>
+    <header>
+        <h1 class="text-center">Contact Me</h1>
+    </header>
+    
+    <div class="container">
+        <p class="text-center" >If you'd like to get in touch, you can reach me through the following channels:</p>
+        
+        <div class="row">
+            <!-- Email -->
+            <div class="col-md-6">
+                <a href="mailto:200528768@student.georgianc.on.ca" class="card text-center">
+                    <div class="card-body">
+                        <h2>Email</h2>
+                        <p class="card-text">200528768@student.georgianc.on.ca</p>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Phone -->
+            <div class="col-md-6">
+                <a href="tel:+17057175608" class="card text-center">
+                    <div class="card-body">
+                        <h2>Phone</h2>
+                        <p class="card-text">+1 (705) 717-5608</p>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- LinkedIn -->
+            
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript (optional) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

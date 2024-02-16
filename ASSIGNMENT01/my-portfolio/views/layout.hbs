@@ -7,12 +7,52 @@
     <!-- Include CSS files and Bootstrap -->
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Header styles */
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+            header h1 {
+                font-size: 36px;
+                margin-bottom: 10px;
+            }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+
+                nav ul li:last-child {
+                    margin-right: 0;
+                }
+
+                nav ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 18px;
+                    transition: color 0.3s ease;
+                }
+
+                    nav ul li a:hover {
+                        color: #00B7FF;
+                    }
+    </style>
 </head>
 <body>
 
     <!-- Header section -->
     <header>
-        <h1>Welcome to Your Portfolio</h1>
+        <h1>Hey There, Welcome to My Portfolio</h1>
         <!-- Navigation menu -->
         <nav>
             <ul>
@@ -30,13 +70,15 @@
     </main>
 
     <!-- Footer section -->
-    <footer>
-        <p>&copy; 2024 Your Portfolio</p>
-        <!-- Links to GitHub and LinkedIn -->
-        <ul>
-            <li><a href="https://github.com/yourgithub">GitHub</a></li>
-            <li><a href="https://linkedin.com/in/yourlinkedin">LinkedIn</a></li>
-        </ul>
+    <footer class="footer bg-dark text-white py-4" style="position: fixed; bottom: 0; width: 100%;">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Fazil's Portfolio</p>
+            <!-- Social media links -->
+            <ul class="list-inline mt-3">
+                <li class="list-inline-item"><a href="https://github.com/FazilAbdhulla" class="text-white"><span class="mr-1">GitHub</span><i class="fab fa-github"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/fazil-abdulla-salam-1a3a81251/" class="text-white"><span class="mr-1">LinkedIn</span><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
     </footer>
 
 </body>
